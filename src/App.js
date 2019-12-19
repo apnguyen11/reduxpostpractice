@@ -7,7 +7,7 @@ import { Provider} from 'react-redux'
 import { createStore, applyMiddleware} from 'redux'
 import store from './store'
 
-const store = createStore(() => [], {}, applyMiddleware())
+// const store = createStore(() => [], {}, applyMiddleware())
 
 function App() {
   return (
